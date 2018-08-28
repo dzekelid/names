@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Names
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dyn - Retrieving a list of custom X-header field names
+  x-api-slug: xheaders-get
+  description: Retrieving a list of custom X-header field names
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/dyn/xheaders-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://duckduckgo.api.gallery.streamdata.io

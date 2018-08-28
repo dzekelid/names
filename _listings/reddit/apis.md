@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Names
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/reddit/by-idnames-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/reddit/by-idnames-get-openapi.md
+- name: Reddit - Get Search Reddit Names
+  x-api-slug: apisearch-reddit-names-json-get
+  description: List subreddit names that begin with a query string.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/reddit/apisearch-reddit-names-json-get-openapi.md
+- name: Reddit - Add Search Reddit Names
+  x-api-slug: search-reddit-names-postnbsp
+  description: List subreddit names that begin with a query string.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/reddit/search-reddit-names-postnbsp-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://rebilly.api.gallery.streamdata.io

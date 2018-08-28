@@ -11,11 +11,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Names
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
+- name: plentymarkets REST-API - List attribute names
+  x-api-slug: restitemsattributesattributeidnameslang-get
+  description: Lists the attribute names of an attribute.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/plentymarkets/restitemsattributesattributeidnameslang-get-openapi.md
+- name: plentymarkets REST-API - Search attribute value market names
+  x-api-slug: restitemsattributesattributeidvalue-market-names-get
+  description: Search attribute value market names.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/plentymarkets/restitemsattributesattributeidvalue-market-names-get-openapi.md
 - name: plentymarkets REST-API - List the property names
   x-api-slug: restitemspropertiesidnames-get
   description: Lists the names of a property in all languages. The ID of the property

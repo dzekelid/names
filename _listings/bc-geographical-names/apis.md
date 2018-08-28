@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Names
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/bc-geographical-names/apis.md
 specificationVersion: "0.14"
 apis:
@@ -128,6 +128,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/bc-geographical-names/namessearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/bc-geographical-names/namessearch-get-openapi.md
+- name: BC Geographical Names - Get a name by its nameId
+  x-api-slug: namesnameid-outputformat-get
+  description: Get information about the geographical name with the specified nameId.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
+  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
+  baseURL: https://apps.gov.bc.ca//pub/bcgnws
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/bc-geographical-names/namesnameid-outputformat-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/bc-geographical-names/namesnameid-outputformat-get-openapi.md
 - name: BC Geographical Names - Get a name by its nameId
   x-api-slug: namesnameid-outputformat-get
   description: Get information about the geographical name with the specified nameId.

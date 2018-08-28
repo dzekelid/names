@@ -12,11 +12,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Names
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elasticsearch Service API - List Domain Names
+  x-api-slug: 20150101domain-get
+  description: Displays the names of all Amazon ES domains owned by the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/aws-elasticsearch-service/20150101domain-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elasticache.api.gallery.streamdata.io

@@ -7,11 +7,47 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Names
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Go To Training - Update Training Name and Description
+  x-api-slug: organizersorganizerkeytrainingstrainingkeynamedescription-put
+  description: Request to update a scheduled training name and description.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/gotomeeting/organizersorganizerkeytrainingstrainingkeynamedescription-put-openapi.md
+- name: Go To Training - Update Training Name and Description
+  x-api-slug: organizersorganizerkeytrainingstrainingkeynamedescription-put
+  description: Request to update a scheduled training name and description.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/gotomeeting/organizersorganizerkeytrainingstrainingkeynamedescription-put-openapi.md
+- name: Go To Training - Update Training Name and Description
+  x-api-slug: organizersorganizerkeytrainingstrainingkeynamedescription-put
+  description: Request to update a scheduled training name and description.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
+  humanURL: https://citrixonline.com
+  baseURL: https://api.citrixonline.com//G2T/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/names/master/_listings/gotomeeting/organizersorganizerkeytrainingstrainingkeynamedescription-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.url.shortener.api.gallery.streamdata.io
